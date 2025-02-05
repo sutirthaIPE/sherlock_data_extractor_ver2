@@ -109,7 +109,7 @@ def main():
     else:
         print("No summary.xml files found.")
 
-
+# calling main
 
 if __name__ == "__main__":
     main()

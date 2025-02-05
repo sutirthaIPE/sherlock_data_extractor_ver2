@@ -1,8 +1,11 @@
 ######################################################
 # Code Name: Vision Sim Data Parser                  #
-# Rev: 1 PROD STABLE                                 #
+# Rev: 1 PROD STABLE
+# Author: Sutirtha Chowdhury, 12140215            #
+# sort IPE, STTD, ww05'25                                 #
 # Author: Aniket Yashwant Nawle, 12127118            #
-# NMDS Yield, ww05'25                                #
+# NMDS Yield, ww05'25     
+# This code is sherock data extractor for multiple file #
 ######################################################
 import os
 import fnmatch

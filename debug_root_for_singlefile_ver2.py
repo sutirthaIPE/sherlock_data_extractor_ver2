@@ -27,7 +27,10 @@ for i in range(len(content)):
         lot_tray_direction_info = content[i]
         detail.append(lot_tray_direction_info)
 
-#-- data manipulating a bit from the detail list-----
+#-- data manipulating from the detail list-----
+'''
+This one is reading a string length from a keywords to avoid the hardcoding
+'''
 trimmed_detail = [item.strip() for item in detail]
 parameter_string = trimmed_detail[0]
 value_start = parameter_string.find('Value="') + len('Value="')

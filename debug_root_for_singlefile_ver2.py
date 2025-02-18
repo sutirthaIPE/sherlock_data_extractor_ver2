@@ -6,7 +6,7 @@ import re
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-file  = open('IOM_D419813E1_119327_179T01_I_L04_Summary.xml',"r")
+file  = open('MRW tray image_SDX229_Lane4_Summary.xml',"r")
 content = file.readlines()
 
 L_1 = [] # for outer_corner X data
